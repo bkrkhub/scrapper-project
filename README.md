@@ -10,6 +10,7 @@ internet hızınıza bağlı olarak 3 dakika içerisinde sistem hazır olacak.
 # KULLANIM
 - Kurulum kısmından sonra, scrappers adlı klasöre gidin. `.py` uzantılı dosyaları IDE'nizde çalıştırın.
 - Kazınan veriler console'a yazılacaktır.
+- Veriler kazındıktan sonra, `docker-compose.yml`'da belirtildiği üzere ./mongodb/database-data:/data/db şeklinde saklanacaktır.
 
 # MONGODB'ye erişim
 - pymongo kütüphanesi arayıcılığı ile mongodb://root:password@localhost:27017 adresine bağlanarak mongodb içeriğini görüntüleyebilirsiniz.
